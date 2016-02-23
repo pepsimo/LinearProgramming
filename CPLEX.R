@@ -1,5 +1,6 @@
 # Función para resolver modelos lineales con Rglpk 0.6-1 a partir de type = "CPLEX_LP"
 # Pep Simo - 2016-02-23. http://www.pepsimo.eu
+# https://github.com/pepsimo/LinearProgramming/blob/master/CPLEX.R
 
 CPLEX <- function(model, method="CPLEX_LP", decimal=0){
   

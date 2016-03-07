@@ -5,12 +5,11 @@
 # Soluciones E1: https://docs.google.com/document/d/1lW8VOR_pFoEWIDlftcIoR3bgqR4vrfXJSkIGmR8yOA8/edit?usp=sharing
 
 Maximize
-beneficio: 50SEC + 80REG
+  beneficio: 50SEC + 80REG
 
 Subject To
-
-ARE: SEC + REG <= 110
-TRA: 4SEC + 8REG <= 720
-CUO: SEC <= 80
+  ARE: SEC + REG <= 110
+  TRA: 4SEC + 8REG <= 720
+  CUO: SEC <= 80
 
 End

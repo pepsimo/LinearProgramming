@@ -5,11 +5,10 @@
 # Soluciones E1: https://docs.google.com/document/d/1lW8VOR_pFoEWIDlftcIoR3bgqR4vrfXJSkIGmR8yOA8/edit?usp=sharing
 
 Minimize
-coste: 35pescado +  130carne + 100dulces + 75cereales + 30verduras
+  coste: 35pescado +  130carne + 100dulces + 75cereales + 30verduras
 
 Subject To
-
-proteinas: 8.3pescado + 24.9carne + 0.4dulces + 6cereales + 5.1verduras >= 70
-calorias: 246pescado + 423carne + 793dulces + 75cereales + 30verduras >= 3000
+  proteinas: 8.3pescado + 24.9carne + 0.4dulces + 6cereales + 5.1verduras >= 70
+  calorias: 246pescado + 423carne + 793dulces + 75cereales + 30verduras >= 3000
 
 End

@@ -1,0 +1,25 @@
+# Ejercicios CPLEX: E1-P4
+# Pep Simo - 2016-03-07. http://www.pepsimo.eu
+# GitHub: https://github.com/pepsimo/LinearProgramming
+# Enunciados E1: https://docs.google.com/document/d/14nD8vfKisTS0C9wV_YatbheALrEwLO_esNolYZbgVK0/edit?usp=sharing
+# Soluciones E1: https://docs.google.com/document/d/1lW8VOR_pFoEWIDlftcIoR3bgqR4vrfXJSkIGmR8yOA8/edit?usp=sharing
+
+
+Minimize
+coste: 12X1 + 14X2 + 16X3 + 18X4 + 2S01 + 2S12 + 2S23 + 2S34
+
+Subject to
+
+dm1: S01 + X1 - S12 >= 100
+dm2: S12 + X2 - S23 >= 100
+dm3: S23 + X3 - S34 >= 150
+dm5: S34 + X4 - S45 >= 400
+
+stk: S01 = 0
+
+hm1: 0.5X1 <= 125
+hm2: 0.5X2 <= 125
+hm3: 0.5X3 <= 100
+hm4: 0.5X4 <= 100
+
+End

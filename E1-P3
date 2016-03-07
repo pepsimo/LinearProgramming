@@ -1,0 +1,15 @@
+# Ejercicios CPLEX: E1-P1
+# Pep Simo - 2016-03-07. http://www.pepsimo.eu
+# GitHub: https://github.com/pepsimo/LinearProgramming
+# Enunciados E1: https://docs.google.com/document/d/14nD8vfKisTS0C9wV_YatbheALrEwLO_esNolYZbgVK0/edit?usp=sharing
+# Soluciones E1: https://docs.google.com/document/d/1lW8VOR_pFoEWIDlftcIoR3bgqR4vrfXJSkIGmR8yOA8/edit?usp=sharing
+
+Maximize
+beneficio: 15P1 + 60P2
+
+Subject to
+HH: 30P1 + 20P2 <= 2700
+HM: 5P1 + 20P2 <= 850
+FAB: P1 + P2 >= 95
+
+End

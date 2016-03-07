@@ -5,11 +5,11 @@
 # Soluciones E1: https://docs.google.com/document/d/1lW8VOR_pFoEWIDlftcIoR3bgqR4vrfXJSkIGmR8yOA8/edit?usp=sharing
 
 Maximize
-beneficio: 15P1 + 60P2
+  beneficio: 15P1 + 60P2
 
 Subject to
-HH: 30P1 + 20P2 <= 2700
-HM: 5P1 + 20P2 <= 850
-FAB: P1 + P2 >= 95
+  HH: 30P1 + 20P2 <= 2700
+  HM: 5P1 + 20P2 <= 850
+  FAB: P1 + P2 >= 95
 
 End

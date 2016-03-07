@@ -1,0 +1,34 @@
+# Ejercicios CPLEX: E1-P1
+# Pep Simo - 2016-03-07. http://www.pepsimo.eu
+# GitHub: https://github.com/pepsimo/LinearProgramming
+# Enunciados E1: https://docs.google.com/document/d/14nD8vfKisTS0C9wV_YatbheALrEwLO_esNolYZbgVK0/edit?usp=sharing
+# Soluciones E1: https://docs.google.com/document/d/1lW8VOR_pFoEWIDlftcIoR3bgqR4vrfXJSkIGmR8yOA8/edit?usp=sharing
+
+Minimize
+  coste: 4A1F1 + 5A1F2 + 6A1F3 + 9A1F4 + 8A2F1 + 7A2F2 + 9A2F3 + 4A2F4 + 7A3F1 + 8A3F2 + 7A3F3 + 6A3F4
+
+Subject to
+  CapA1: A1F1 + A1F2 + A1F3 + A1F4 <= 100
+  CapA2: A2F1 + A2F2 + A2F3 + A2F4 <= 200
+  CapA3: A3F1 + A3F2 + A3F3 + A3F4 <= 150
+
+  DemF1: A1F1 + A2F1 + A3F1 >= 100
+  DemF2: A1F2 + A2F2 + A3F2 >= 115
+  DemF3: A1F3 + A2F3 + A3F3 >= 80
+  DemF4: A1F4 + A2F4 + A3F4 >= 105
+
+Integer
+  A1F1
+  A1F2
+  A1F3
+  A1F4
+  A2F1
+  A2F2
+  A2F3
+  A2F4
+  A3F1
+  A3F2
+  A3F3
+  A3F4
+
+End

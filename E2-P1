@@ -1,0 +1,18 @@
+
+Maximize
+  beneficio: 9FLA + 5FSF + 6ALA + 4ASF
+
+Subject To
+
+  INV:  6FLA + 3FSF + 5ALA + 2ASF <= 10
+  SF:   ALA - FLA <= 0
+  LA:   ASF - FSF <= 0
+  AL:   ALA + ASF <= 1
+
+Binary
+  FLA
+  FSF
+  ALA
+  ASF
+
+End

@@ -10,11 +10,13 @@ We hope that this will be useful to all people interested in applying linear pro
 Todos los enunciados de los problemas se pueden encontrar en:
 
 E1: https://docs.google.com/document/d/14nD8vfKisTS0C9wV_YatbheALrEwLO_esNolYZbgVK0/edit?usp=sharing
+
 E2: https://docs.google.com/document/d/199YmtPWeUq54k6-feC0216n48W4xGH-lcxn49gRWzzw/edit?usp=sharing
 
 Las soluciones en:
 
 E1: https://docs.google.com/document/d/1lW8VOR_pFoEWIDlftcIoR3bgqR4vrfXJSkIGmR8yOA8/edit?usp=sharing
+
 E2: https://docs.google.com/document/d/1_49Lc1AMQxh3WuqC9SDTf1ojXbe8zizyXM0kMcmTEEA/edit?usp=sharing
 
 

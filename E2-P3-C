@@ -1,0 +1,47 @@
+Minimize
+
+  coste: 22xh1 + 27.5xh2 + 33xh3 + 44xh4 + 38.5xh5 + 27xh6 + 18xl1 + 22.5xl2 + 27xl3 + 36xl4 + 31.5xl5 + 22.5xl6 +8s1 + 8s2 + 8s3 + 8s5 + 8s6
+
+Subject to
+
+  dem1: s0 + xh1 + xl1 - s1 >= 1200
+  dem2: s1 + xh2 + xl2 - s2 >= 1500
+  dem3: s2 + xh3 + xl3 - s3 >= 2000
+  dem4: s3 + xh4 + xl4 - s4 >= 5000
+  dem5: s4 + xh5 + xl5 - s5 >= 4500
+  dem6: s5 + xh6 + xl6 - s6 >= 3800
+
+  s0 = 500
+  s6 = 500
+  
+  limA1: xh1 <= 2000
+  limA2: xh2 <= 2000
+  limA3: xh3 <= 2000
+  limA4: xh4 <= 2000
+  limA5: xh5 <= 2000
+  limA6: xh6 <= 2000
+  
+  limB1: xh1 - 2000b1 >= 0
+  limB2: xh2 - 2000b2 >= 0
+  limB3: xh3 - 2000b3 >= 0
+  limB4: xh4 - 2000b4 >= 0
+  limB5: xh5 - 2000b5 >= 0
+  limB6: xh6 - 2000b6 >= 0
+  
+  limC1: xl1 - 10000b1 <= 0
+  limC2: xl2 - 10000b2 <= 0
+  limC3: xl3 - 10000b3 <= 0
+  limC4: xl4 - 10000b4 <= 0
+  limC5: xl5 - 10000b5 <= 0
+  limC6: xl6 - 10000b6 <= 0
+  
+Binary
+  
+  b1
+  b2
+  b3
+  b4
+  b5
+  b6
+  
+End

@@ -1,0 +1,17 @@
+Minimize
+
+  coste: 20x1 + 25x2 + 30x3 + 40x4 + 35x5 + 25x6 + 8s1 + 8s2 + 8s3 + 8s5 + 8s6
+
+Subject to
+
+  dem1: s0 + x1 - s1 >= 1200
+  dem2: s1 + x2 - s2 >= 1500
+  dem3: s2 + x3 - s3 >= 2000
+  dem4: s3 + x4 - s4 >= 5000
+  dem5: s4 + x5 - s5 >= 4500
+  dem6: s5 + x6 - s6 >= 3800
+
+  s0 = 500
+  s6 = 500
+
+End

@@ -3,6 +3,6 @@ Minimize
 
 Subject To
   proteinas: 8.3pescado + 24.9carne + 0.4dulces + 6cereales + 5.1verduras >= 70
-  calorias: 246pescado + 423carne + 793dulces + 75cereales + 30verduras >= 3000
+  calorias: 246pescado + 423carne + 793dulces + 93cereales + 26verduras >= 3000
 
 End

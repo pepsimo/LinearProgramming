@@ -20,4 +20,4 @@ E1: https://docs.google.com/document/d/1lW8VOR_pFoEWIDlftcIoR3bgqR4vrfXJSkIGmR8y
 E2: https://docs.google.com/document/d/1_49Lc1AMQxh3WuqC9SDTf1ojXbe8zizyXM0kMcmTEEA/edit?usp=sharing
 
 
-Pep Simo - 2016-03-07. http://www.pepsimo.eu
+Pep Simo - 2016-03-07. http://www.pepsimo.org
